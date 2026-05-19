@@ -1,0 +1,12 @@
+{
+  "data_product": "customer_churn_features",
+  "owner_domain": "marketing_analytics",
+  "refresh_frequency": "daily_batch",
+  "sla_latency_hours": 2,
+  "schema_fields": [
+    {"name": "customer_id", "type": "VARCHAR", "nullable": false},
+    {"name": "total_purchases_90_days", "type": "INTEGER", "nullable": false},
+    {"name": "total_spend_amount", "type": "NUMERIC", "nullable": false},
+    {"name": "churn_risk_flag", "type": "BOOLEAN", "nullable": false}
+  ]
+}
